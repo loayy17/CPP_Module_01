@@ -1,6 +1,7 @@
-#include <iostream>
 #include "Zombie.hpp"
-Zombie* newZombie( std::string name )
+#include <iostream>
+
+Zombie	*newZombie(std::string name)
 {
-    return new Zombie(name);
+	return (new Zombie(name));
 }
